@@ -1,4 +1,4 @@
-#define BLYNK_PRINT Serial 
+define BLYNK_PRINT Serial 
 //Definisi Serial pada Blink 
 
 //Setting Library 
@@ -7,9 +7,9 @@
 #include <Servo.h> 
 
 //Definisi variabel token, SSID, password 
-char auth[] = "Your Auth token "; 
-char ssid[] = "Your wifi"; 
-char pass[] = "Your wifi password"; 
+char auth[] = "Auth Token Blynk"; 
+char ssid[] = "wifi"; 
+char pass[] = "password wifi"; 
 
 //Definisi fungsi servo menjadi gerak_servo 
 Servo gerak_servo; 
